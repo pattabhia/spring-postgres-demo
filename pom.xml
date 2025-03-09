@@ -13,7 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-postgres-docker</name>
 	<description>Demo project for Spring PostGres</description>
-
 	<properties>
 		<java.version>11</java.version>
 	</properties>
