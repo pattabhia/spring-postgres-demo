@@ -13,11 +13,8 @@ public class SpringPostgresDockerApplication {
 
 	@Bean
 	public AuditorAware<String> auditorAware(){
-
 		return new AuditorAwareImpl();
 	}
-
-
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringPostgresDockerApplication.class, args);
